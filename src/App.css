@@ -3,11 +3,32 @@
   background-image: linear-gradient(to right, #5170ff, #331a49);
   padding-top: 120px;
   padding-left: 70px;
+  height: 90vh;
+  font-size:medium;
+  display: flex; 
+  align-items: flex-start;    
+  justify-content: space-between;
+}
+
+.App-projects {
+  text-align: left;
+  background-image: linear-gradient(to right, #5170ff, #331a49);
+  padding-top: 90px;
+  padding-left: 70px;
   height: 100vh;
   font-size: larger;
   display: flex; 
   align-items: flex-start;    
-  justify-content: space-between;
+}
+
+/* Styling For The "Contact Me" Page */
+.app-contact{
+  text-align: center;
+  background-image: linear-gradient(to right, #5170ff, #331a49);
+  height: 100vh;
+  width: 100vw;
+  padding-top: 5%;
+  z-index: 0;
 }
 
 .main-page-text{
@@ -73,9 +94,51 @@
   font-weight: bold;
 }
 
+/* Styling for the portrait on the "About Me" Page */
 .portrait {
   padding-right: 60px;
-  padding-top:40px;
+  padding-left: 200px;
   height: 70vh;
-  border-radius: 200px;
+  border-radius: 8000px;
+}
+
+/* Styling for all of the items displaying a project */
+.project{
+  padding-left: 20px;
+  padding-right: 100px;
+  max-width: 200px;
+}
+
+/* Styling for the photos of projects on the project page */
+.project-photo {
+  height: 40vh;
+}
+
+/* Hover styling for the photos on the project page */
+.project-photo:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 1px 5px 4px 2px rgb(33, 19, 71);
+}
+
+/* Styling for the captions of each project */
+.project-caption {
+  text-align: center;
+  padding-left: 20px;
+}
+
+/* Styling for the github link */
+.github-link{
+  color:#79a4bd;
+}
+
+/* Styling For The Smaller Headers On The Contact Page */
+.contact-sub{
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Styling For The Text On The Contact Page */
+.contact-text{
+  padding-bottom: 20px;
 }

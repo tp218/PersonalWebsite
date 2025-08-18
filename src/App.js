@@ -15,7 +15,7 @@ function App() {
   //React Router For The Website
   return(
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div>
 
           <Box>

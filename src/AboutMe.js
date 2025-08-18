@@ -1,5 +1,6 @@
 import './App.css';
 import me from './Assets/portrait.jpg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +24,9 @@ function AboutMe(){
                 worked on so far and links to their github repositories <br></br>
             </div>
             <div>
-                <img src={me} className="portrait"/>
+                <Link to={'https://github.com/tp218'}>
+                    <img src={me} className="portrait"/>
+                </Link>
             </div>
         </div>
     );
