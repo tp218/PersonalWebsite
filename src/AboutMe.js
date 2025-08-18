@@ -9,7 +9,7 @@ function AboutMe(){
         <div className='App'>
             <div className='main-page-text'>
                 Hello! My name is Anastasios Pagiatakis. I am a WPI <br></br>
-                computer science student from the class of 2027 who <br></br>
+                computer science student in the class of 2027 who <br></br>
                 loves to work on projects relating to all different <br></br>
                 types of computer science disciplines. Specifically, <br></br>
                 I am planning on projects that cover networks, machine <br></br>
