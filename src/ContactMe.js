@@ -13,7 +13,7 @@ function ContactMe(){
             <div className="contact-text">
 
                 <div className="contact-sub">
-                    Personal Email:
+                    Personal Email (Preferred):
                 </div>
 
                 <a href="mailto:tasopagiatakis@gmail.com?body=My custom mail body" className='mail-to'>
