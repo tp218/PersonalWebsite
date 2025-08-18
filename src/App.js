@@ -1,23 +1,37 @@
+import React, { useState } from "react";
 import logo from './logo.svg';
 import './App.css';
+import AboutMe from './AboutMe.js';
+import Projects from './Projects.js';
+import ContactMe from './ContactMe.js';
+import Navbar from './Navbar.js';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import { Box } from "@mui/material";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  //React Router For The Website
+  return(
+    <div>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div>
+
+          <Box>
+
+            <Navbar />
+
+            <div>
+              <Routes>
+                <Route path="/" element={<AboutMe />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<ContactMe />} />
+              </Routes>
+            </div>
+          </Box>
+        </div>
+      </Router>
     </div>
   );
 }
