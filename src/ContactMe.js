@@ -16,7 +16,7 @@ function ContactMe(){
                     Personal Email:
                 </div>
 
-                <a href="mailto:tasopagiatakis@gmail.com?body=My custom mail body">
+                <a href="mailto:tasopagiatakis@gmail.com?body=My custom mail body" className='mail-to'>
                     tasopagiatakis@gmail.com
                 </a>
             </div>
@@ -27,7 +27,7 @@ function ContactMe(){
                     School Email:
                 </div>
 
-                <a href="mailto:ajpagiatakis@wpi.edu?body= ">
+                <a href="mailto:ajpagiatakis@wpi.edu?body= " className='mail-to'>
                 ajpagiatakis@wpi.edu
                 </a>
             </div>

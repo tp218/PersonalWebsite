@@ -142,3 +142,8 @@
 .contact-text{
   padding-bottom: 20px;
 }
+
+/* Styling for the mailto links */
+.mail-to{
+  color:#61dafb;
+}
