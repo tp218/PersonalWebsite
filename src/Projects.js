@@ -7,7 +7,7 @@ function Projects(){
     return(
         <div className="App-projects">
             <div className='project'>
-                <Link to={'https://tp218.github.io/StoryWebsite/#/'}>
+                <Link to={'https://tp218.github.io/StoryWebsite/'}>
                         <img src={JPStories} className="project-photo"/>
                 </Link>  
                 <div className='project-caption'>
